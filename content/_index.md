@@ -4,11 +4,11 @@ header:
     height: 200
     paddingX: 50
     paddingY: 0
-    align: center
+    align: left
     title:
       - XIXI
     subtitle:
-      - The world’s fastest framework for building websites
+      - Blog site v2 for xxuan.me
     titleColor: 
     titleShadow: true
     titleFontSize: 44
