@@ -70,7 +70,7 @@ busuanziPagePV = true
 
 # comment
 enableComment = true
-disqus_shortname = "xxuan-cc.disqus.com"
+disqus_shortname = "xxuan-cc"
 commento = false
 
 [gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
