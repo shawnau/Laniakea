@@ -10,8 +10,9 @@ tags:
 - backtracking
 categories:
 - string
-series:
 - pattern matching
+series:
+- regular expression
 libraries:
 - katex
 - mermaid
@@ -120,6 +121,7 @@ graph TD;
   L-->|match a*|LL(ab,a*ab)
   L-->|skip a*|LR(aab,ab);
   LL-->|match a*|LLL(b,a*ab);
+  LLL-->|skip a*|LLLL(b,ab);
   LL-->|skip a*|LLR(ab,ab);
   LR-->|match a|LRL(ab,b);
   LLR-->|match a|LLRL(b,b);
