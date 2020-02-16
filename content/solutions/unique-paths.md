@@ -9,6 +9,7 @@ tags:
 - dynamic programming
 categories:
 - path
+- grid
 libraries:
 - katex
 ---

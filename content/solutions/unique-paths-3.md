@@ -10,6 +10,7 @@ tags:
 - dfs
 categories:
 - path
+- grid
 libraries:
 - katex
 ---
