@@ -8,7 +8,7 @@ enableTocContent: true
 tags:
 - stack
 categories:
-- rectangle
+- grid
 libraries:
 - katex
 ---

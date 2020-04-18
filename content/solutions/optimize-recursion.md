@@ -5,10 +5,6 @@ draft: false
 hideToc: false
 enableToc: false
 enableTocContent: false
-categories:
-- python
-series:
-- tools
 ---
 
 <!--more-->

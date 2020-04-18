@@ -100,7 +100,7 @@ First we need to check if `p[pi]` is a **wildcard**: `p[pi+1] == "*"`, and don't
   {{< /tab >}}
 {{< /tab >}}
 
- - The code could be easily optimized using a cache to avoid duplicate calculation. See `Optimize Recursion` in my blog.
+ - The code could be easily optimized using a cache to avoid duplicate calculation. See [Optimize Recursion]({{< relref "optimize-recursion.md" >}}).
  - Always pay attention to corner cases in recursion. 
  - Below is an example for matching `aab` and `c*a*ab`, with the dicision tree of the backtracking search path.
 
@@ -168,3 +168,6 @@ class Solution:
                     dp[si][pi] = match and dp[si+1][pi+1]
         return dp[0][0]
 ```
+
+Notes:
+1. This is similar to [Distinct Subsequences]({{< relref "distinct-subsequences.md" >}})

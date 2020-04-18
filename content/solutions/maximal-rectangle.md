@@ -9,7 +9,6 @@ tags:
 - dynamic programming
 categories:
 - grid
-- rectangle
 libraries:
 - katex
 ---
