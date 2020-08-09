@@ -3,5 +3,5 @@
 	url = https://github.com/zzossig/hugo-theme-zzo.git
 [submodule "public"]
 	path = public
-	url = git@github.com:chobits1123/chobits1123.github.io.git
+	url = git@github.com:shawnau/shawnau.github.io.git
 	branch = master
