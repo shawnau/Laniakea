@@ -5,9 +5,9 @@
   weight = 1
 
 [[main]]
-  identifier = "solutions"
-  name = "Solutions"
-  url = "solutions"
+  identifier = "playground"
+  name = "Playground"
+  url = "playground"
   weight = 2
 
 [[main]]
