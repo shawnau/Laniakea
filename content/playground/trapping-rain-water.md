@@ -34,7 +34,7 @@ $$\max\limits_{0\leq l<i<r<n} (\min(h_l, h_r) - h_i) = \min (\max\limits_{0\leq 
 0. 水位为$0$, 左右两边的bar入队列, 作为初始状态.
 1. 最小值出队列, $h_i = q.pop()$. 这代表水位需要浸没该bar
 2. 更新水位, 
-    a. 如果$level \leq h_i$, 说明水位已经高过该bar, 不用更新水位值.
+    a. 如果$level \geq h_i$, 说明水位已经高过该bar, 不用更新水位值.
     b. 如果$level < h_i$, 说明水位需要涨到该bar的高度才能浸没它, 更新水位值.
     c. 综上所述, $level = max(level, h_i)$
 3. 浸没$h_i$之后, 水开始探索和$h_i$相邻的bar, 设为$h_{next}$, 
