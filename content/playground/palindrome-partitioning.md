@@ -2,18 +2,9 @@
 title: "Palindrome Partitioning"
 date: 2020-02-20T16:06:21+08:00
 draft: false
-hideToc: true
-enableToc: true
-enableTocContent: true
 tags:
-- backtracking
-- dfs
-categories:
-- string
-series:
-- palindromic
-libraries:
-- katex
+ - backtracking
+ - dfs
 ---
 
 <!--more-->

@@ -2,20 +2,9 @@
 title: "Regular Expression Matching"
 date: 2020-02-10T21:46:18+08:00
 draft: false
-hideToc: true
-enableToc: true
-enableTocContent: true
 tags:
-- dynamic programming
-- backtracking
-categories:
-- string
-- pattern matching
-series:
-- regular expression
-libraries:
-- katex
-- mermaid
+ - dynamic programming
+ - backtracking
 ---
 
 <!--more-->
@@ -54,51 +43,43 @@ First we need to check if `p[pi]` is a **wildcard**: `p[pi+1] == "*"`, and don't
     - If it is, that's a valid wildcard match. But we could still choose to match or skip this wildcard: `search(si+1, pi) or search(si, pi+2)`
     - If not, the only choice is to skip this wildcard: `search(si, pi+2)`
 
-{{< tabs straight concise >}}
-  {{< tab >}}
-
-  ```python
-  class Solution:
-      def isMatch(self, s: str, p: str) -> bool:
-          def search(si: int, pi: int) -> bool:
-              if pi == len(p): 
-                  return si == len(s)
-              wildcard: bool = pi+1 < len(p) and p[pi+1] == "*"
-              match: bool = si < len(s) and p[pi] in {s[si], "."}
-              if wildcard:
-                  if match:
-                      return search(si+1, pi) or search(si, pi+2)
-                  else:
-                      return search(si, pi+2)
-              else:
-                  if march:
-                      search(si+1, pi+1)
-                  else:
-                      return False
-          return search(0, 0)
-  ```
-
-  {{< /tab >}}
-
-  {{< tab >}}
-  Some conditional branches could be merged by `and` operator.
-  ```python
-  class Solution:
-      def isMatch(self, s: str, p: str) -> bool:
-          def search(si: int, pi: int) -> bool:
-              if pi == len(p): 
-                  return si == len(s)
-              wildcard: bool = pi+1 < len(p) and p[pi+1] == "*"
-              match: bool = si < len(s) and p[pi] in {s[si], "."}
-              if wildcard:
-                  return (match and search(si+1, pi)) or search(si, pi+2)
-              else:
-                  return match and search(si+1, pi+1)
-          return search(0, 0)
-  ```
+```python
+class Solution:
+    def isMatch(self, s: str, p: str) -> bool:
+        def search(si: int, pi: int) -> bool:
+            if pi == len(p): 
+                return si == len(s)
+            wildcard: bool = pi+1 < len(p) and p[pi+1] == "*"
+            match: bool = si < len(s) and p[pi] in {s[si], "."}
+            if wildcard:
+                if match:
+                    return search(si+1, pi) or search(si, pi+2)
+                else:
+                    return search(si, pi+2)
+            else:
+                if march:
+                    search(si+1, pi+1)
+                else:
+                    return False
+        return search(0, 0)
+```
+ 
+Some conditional branches could be merged by `and` operator.
   
-  {{< /tab >}}
-{{< /tab >}}
+```python
+class Solution:
+    def isMatch(self, s: str, p: str) -> bool:
+        def search(si: int, pi: int) -> bool:
+            if pi == len(p): 
+                return si == len(s)
+            wildcard: bool = pi+1 < len(p) and p[pi+1] == "*"
+            match: bool = si < len(s) and p[pi] in {s[si], "."}
+            if wildcard:
+                return (match and search(si+1, pi)) or search(si, pi+2)
+            else:
+                return match and search(si+1, pi+1)
+        return search(0, 0)
+```
 
  - The code could be easily optimized using a cache to avoid duplicate calculation. See [Optimize Recursion]({{< relref "optimize-recursion.md" >}}).
  - Always pay attention to corner cases in recursion. 

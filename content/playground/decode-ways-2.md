@@ -2,16 +2,8 @@
 title: "Decode Ways 2"
 date: 2020-02-17T16:52:56+08:00
 draft: false
-hideToc: true
-enableToc: true
-enableTocContent: true
 tags:
 - dynamic programming
-categories:
-- string
-- pattern matching
-libraries:
-- katex
 ---
 
 <!--more-->

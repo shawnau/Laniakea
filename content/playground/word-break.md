@@ -2,15 +2,8 @@
 title: "Word Break"
 date: 2020-02-21T20:59:19+08:00
 draft: false
-hideToc: true
-enableToc: true
-enableTocContent: true
 tags:
-- dynamic programming
-categories:
-- string
-libraries:
-- katex
+ - dynamic programming
 ---
 
 <!--more-->

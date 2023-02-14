@@ -2,19 +2,9 @@
 title: "Wildcard Matching"
 date: 2020-02-11T16:12:15+08:00
 draft: false
-hideToc: true
-enableToc: true
-enableTocContent: true
 tags:
-- dynamic programming
-- backtracking
-categories:
-- string
-- pattern matching
-series:
-- regular expression
-libraries:
-- katex
+ - dynamic programming
+ - backtracking
 ---
 <!--more-->
 

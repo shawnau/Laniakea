@@ -2,19 +2,9 @@
 title: "Longest Palindromic Subsequence"
 date: 2020-02-22T16:43:01+08:00
 draft: false
-hideToc: true
-enableToc: true
-enableTocContent: true
 tags:
-- dynamic programming
-- backtracking
-categories:
-- string
-series:
-- palindromic
-- subsequence
-libraries:
-- katex
+ - dynamic programming
+ - backtracking
 ---
 
 <!--more-->

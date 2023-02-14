@@ -2,15 +2,8 @@
 title: "Maximum Product Subarray"
 date: 2020-02-22T16:16:07+08:00
 draft: false
-hideToc: true
-enableToc: true
-enableTocContent: true
 tags:
-- dynamic programming
-categories:
-- array
-libraries:
-- katex
+ - dynamic programming
 ---
 <!--more-->
 

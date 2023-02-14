@@ -2,16 +2,8 @@
 title: "Dungeon Game"
 date: 2020-03-01T16:05:43+08:00
 draft: false
-hideToc: true
-enableToc: true
-enableTocContent: true
 tags:
 - dynamic programming
-categories:
-- path
-- grid
-libraries:
-- katex
 ---
 
 <!--more-->

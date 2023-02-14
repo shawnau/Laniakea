@@ -2,16 +2,8 @@
 title: "Triangle"
 date: 2020-02-18T23:39:31+08:00
 draft: false
-hideToc: true
-enableToc: false
-enableTocContent: false
 tags:
-- dynamic programming
-categories:
-- path
-- grid
-libraries:
-- katex
+ - dynamic programming
 ---
 <!--more-->
 

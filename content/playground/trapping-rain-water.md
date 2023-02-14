@@ -3,11 +3,6 @@ title: "Trapping Rain Water"
 description: 臭名昭著的接雨水以及其常用解法
 date: 2021-08-11T20:09:03+08:00
 draft: false
-hideToc: true
-enableToc: true
-enableTocContent: true
-libraries:
-- katex
 ---
 <!--more-->
 
@@ -108,54 +103,42 @@ Extend: https://leetcode.com/problems/trapping-rain-water-ii/
 所以和上一题把两边的bar入栈类似的, 先把最外围一圈入栈, 然后和1维情况一样了. [演示动画](https://www.youtube.com/watch?v=cJayBq38VYw)
 
 ```cpp
-class Solution {
-public:
-    // 顺时针遍历周围的元素
-    int drow[4] = {0, -1, 0, 1};
-    int dcol[4] = {-1, 0, 1, 0};
-    
-    int trapRainWater(vector<vector<int>>& heightMap) {
-        int nrow = heightMap.size();
-        int ncol = heightMap[0].size();
-        priority_queue<pair<int, pair<int, int>>> q; // {-height, {row, col}}
-        
-        int level = 0; int volume = 0;
-        vector<vector<int>> visited(nrow, vector<int>(ncol));
+// 顺时针遍历周围的元素
+int drow[4] = {0, -1, 0, 1};
+int dcol[4] = {-1, 0, 1, 0};
 
-        // 上下两行入堆
-        for (int col = 0; col < ncol; col++) {
-            q.push({-heightMap[0][col], {0, col}});            // 第一行
-            q.push({-heightMap[nrow-1][col], {nrow-1, col}});  // 最后一行
-            visited[0][col] = 1; visited[nrow-1][col] = 1;      // 修改visited
-        }
-
-        // 左右两列入堆 (不包括与上下两行重复的部分, 就是四个顶点)
-        for (int row = 1; row < nrow-1; row++) {
-            q.push({-heightMap[row][0], {row, 0}});           // 第一列
-            q.push({-heightMap[row][ncol-1], {row, ncol-1}}); // 最后一列
-            visited[row][0] = 1; visited[row][ncol-1] = 1;     // 修改visited
-        }
-
-        while (!q.empty()) {
-            auto n = q.top(); q.pop();
-            level = max(level, -n.first); // 水平面升至弹出节点的高度
-
-            for (int i = 0; i < 4; i++) {
-                // 遍历弹出节点的相邻节点
-                int next_row = n.second.first + drow[i];
-                int next_col = n.second.second + dcol[i];
-                
-                if (next_row >= 0 && next_row < nrow && next_col >=0 && next_col < ncol && !visited[next_row][next_col]) {
-                    int next_height = heightMap[next_row][next_col];
-                    visited[next_row][next_col] = 1;
-                    if (next_height < level) {
-                        volume += level - next_height;
-                    }
-                    q.push({-next_height, {next_row, next_col}});
-                }
+int trapRainWater(vector<vector<int>>& h) {
+    int m = h.size();
+    int n = h[0].size();        
+    int level = 0; int volume = 0;
+    priority_queue<pair<int, pair<int, int>>> q; // {-height, {row, col}}
+    vector<vector<int>> visited(m, vector<int>(n));
+    // 最外层一圈入堆
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            if (i == 0 || j == 0 || i == m-1 || j == n-1) {
+                q.push({-h[i][j], {i, j}});
+                visited[i][j] = 1;
             }
         }
-        return volume;
     }
-};
+
+    while (!q.empty()) {
+        auto cur = q.top(); q.pop();
+        level = max(level, -cur.first);
+        
+        for (int i = 0; i < 4; i++) {  // 遍历邻居
+            int r2 = cur.second.first  + drow[i];
+            int c2 = cur.second.second + dcol[i];
+            
+            if (r2 >= 0 && r2 < m && c2 >=0 && c2 < n && !visited[r2][c2]) {
+                int h2 = h[r2][c2];
+                if (h2 < level) { volume += level - h2; }
+                q.push({-h2, {r2, c2}});
+                visited[r2][c2] = 1;
+            }
+        }
+    }
+    return volume;
+}
 ```

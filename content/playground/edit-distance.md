@@ -2,16 +2,8 @@
 title: "Edit Distance"
 date: 2020-02-16T13:02:42+08:00
 draft: false
-hideToc: true
-enableToc: false
-enableTocContent: false
 tags:
 - dynamic programming
-categories:
-- string
-- pattern matching
-libraries:
-- katex
 ---
 This is about calculation Levenshtein Distance
 

@@ -2,17 +2,8 @@
 title: "Palindrome Partitioning 2"
 date: 2020-02-20T20:29:24+08:00
 draft: false
-hideToc: true
-enableToc: true
-enableTocContent: true
 tags:
-- dynamic programming
-categories:
-- string
-series:
-- palindromic
-libraries:
-- katex
+ - dynamic programming
 ---
 
 <!--more-->

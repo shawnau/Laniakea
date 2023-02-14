@@ -8,13 +8,6 @@ enableTocContent: true
 tags:
 - dynamic programming
 - backtracking
-categories:
-- string
-series:
-- palindromic
-- subsequence
-libraries:
-- katex
 ---
 
 <!--more-->

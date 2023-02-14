@@ -2,17 +2,8 @@
 title: "Valid Parentheses"
 date: 2020-02-14T17:29:25+08:00
 draft: false
-hideToc: true
-enableToc: true
-enableTocContent: true
 tags:
-- stack
-categories:
-- string
-series:
-- parentheses
-libraries:
-- katex
+ - stack
 ---
 
 <!--more-->

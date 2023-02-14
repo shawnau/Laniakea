@@ -2,19 +2,9 @@
 title: "Longest Valid Parentheses"
 date: 2020-02-14T12:12:45+08:00
 draft: false
-hideToc: true
-enableToc: true
-enableTocContent: true
 tags:
-- dynamic programming
-- stack
-categories:
-- string
-- pattern matching
-series:
-- parentheses
-libraries:
-- katex
+ - dynamic programming
+ - stack
 ---
 
 <!--more-->

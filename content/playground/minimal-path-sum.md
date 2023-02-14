@@ -2,16 +2,8 @@
 title: "Minimal Path Sum"
 date: 2020-02-16T00:20:57+08:00
 draft: false
-hideToc: true
-enableToc: false
-enableTocContent: false
 tags:
-- dynamic programming
-categories:
-- path
-- grid
-libraries:
-- katex
+ - dynamic programming
 ---
 
 <!--more-->

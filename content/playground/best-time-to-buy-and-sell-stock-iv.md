@@ -7,10 +7,6 @@ enableToc: true
 enableTocContent: true
 tags:
 - dynamic programming
-categories:
-- array
-libraries:
-- katex
 ---
 
 <!--more-->

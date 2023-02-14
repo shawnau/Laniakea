@@ -2,16 +2,8 @@
 title: "Maximum Subarray"
 date: 2020-02-15T16:33:34+08:00
 draft: false
-hideToc: true
-enableToc: true
-enableTocContent: true
 tags:
-- dynamic programming
-categories:
-- array
-- sum
-libraries:
-- katex
+ - dynamic programming
 ---
 
 <!--more-->
