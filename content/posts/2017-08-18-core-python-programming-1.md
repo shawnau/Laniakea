@@ -5,7 +5,7 @@ tags:
  - python
 
 ---
-![](http://my-imgshare.oss-cn-shenzhen.aliyuncs.com/080_S.jpg)
+![](https://my-imgshare.oss-cn-shenzhen.aliyuncs.com/080_S.jpg)
 这本书翻译稀烂, 然而我还是忍着看完了第一部分
 
 <!--more-->

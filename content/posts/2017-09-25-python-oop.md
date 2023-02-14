@@ -6,7 +6,7 @@ tags:
 
 ---
 
-![](http://my-imgshare.oss-cn-shenzhen.aliyuncs.com/64495434_p0.jpg)
+![](https://my-imgshare.oss-cn-shenzhen.aliyuncs.com/64495434_p0.jpg)
 python有很好的OOP特性, 自由度也非常大
 
 <!--more-->
