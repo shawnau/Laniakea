@@ -1,5 +1,5 @@
 ```bash
-git clone --recursive git@github.com:shawnau/hugo_blog.git
+git clone --recursive git@github.com:shawnau/Laniakea.git
 cd hugo_blog
 hugo server
 ```
