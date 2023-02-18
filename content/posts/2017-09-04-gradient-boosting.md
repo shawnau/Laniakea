@@ -1,8 +1,6 @@
 ---
 title: 梯度提升(Gradient Boosting)
 date: 2017-09-04 22:05:06
-tags:
- - gbdt
 ---
 
 自己写的老物了, 整理一下发出来, 可能会修改

@@ -2,8 +2,6 @@
 title: "Dungeon Game"
 date: 2020-03-01T16:05:43+08:00
 draft: false
-tags:
-- dynamic programming
 ---
 
 <!--more-->

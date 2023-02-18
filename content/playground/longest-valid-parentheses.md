@@ -2,9 +2,6 @@
 title: "Longest Valid Parentheses"
 date: 2020-02-14T12:12:45+08:00
 draft: false
-tags:
- - dynamic programming
- - stack
 ---
 
 <!--more-->

@@ -1,13 +1,8 @@
 ---
-title: Machine Learning Notes(3)-Multivariate Linear Regression
+title: 吴恩达 ML 公开课笔记(3)-Multivariate Linear Regression
 date: 2016-01-30 16:20:23
 tags: 
- - machine learning
- - linear regression
- - coursera
-
-
-
+ - AndrewNg's ML
 ---
 
 Multivariate Linear Regression

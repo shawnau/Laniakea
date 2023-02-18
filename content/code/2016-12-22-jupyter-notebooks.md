@@ -3,7 +3,6 @@ title: Jupyter Notebooks 简介
 date: 2016-12-22 15:37:15
 tags: 
  - python
-
 ---
 
 jupyter可以看作是一款强化版的python terminal, 实时运行命令脚本, 实时反映结果, 非常适用于科学计算和数据分析. 除此之外通过安装kernel也可以用其他语言工作

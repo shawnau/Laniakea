@@ -3,7 +3,6 @@ title: Survival Models
 date: 2017-12-26 19:21:27
 tags:
  - stat
- - GLM
 ---
 
 生存模型(Survival Models)属于General Linear Model, 被广泛用于Censored Data的建模, 譬如用户流失预测. 这里介绍下最基本的生存模型以及在Censored Data上的MLE估计

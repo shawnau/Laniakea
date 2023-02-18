@@ -1,11 +1,8 @@
 ---
-title: Machine Learning Notes(13)-Programming Exercise 5
+title: 吴恩达 ML 公开课笔记(13)-Programming Exercise 5
 date: 2016-02-27 22:17:15
 tags: 
- - coursera
-
-
-
+ - AndrewNg's ML
 ---
 
 Programming Exercise 5

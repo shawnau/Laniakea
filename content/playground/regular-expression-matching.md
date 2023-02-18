@@ -2,9 +2,6 @@
 title: "Regular Expression Matching"
 date: 2020-02-10T21:46:18+08:00
 draft: false
-tags:
- - dynamic programming
- - backtracking
 ---
 
 <!--more-->

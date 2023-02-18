@@ -4,9 +4,7 @@ date: 2017-03-16 15:38:14
 tags:
  - flask
  - nginx
- - uwsgi
  - python
-
 ---
 
 主要参考了这篇文章

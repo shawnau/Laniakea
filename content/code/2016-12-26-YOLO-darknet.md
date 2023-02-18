@@ -2,8 +2,7 @@
 title: Blazing Fast! 使用YOLO+Darknet进行目标检测
 date: 2016-12-26 15:15:08
 tags:
- - deep learning
-
+ - CV
 ---
 
 YOLO做目标检测很快

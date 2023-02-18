@@ -2,8 +2,6 @@
 title: EM算法
 date: 2016-08-26 21:01:12
 tags:
- - machine learning
- - EM算法
  - 统计学习方法
 ---
 

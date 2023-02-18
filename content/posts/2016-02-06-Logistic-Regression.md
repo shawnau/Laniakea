@@ -1,10 +1,8 @@
 ---
-title: Machine Learning Notes(6)-Logistic Regression
+title: 吴恩达 ML 公开课笔记(6)-Logistic Regression
 date: 2016-02-06 18:54:52
 tags: 
- - machine learning
- - logistic regression
- - coursera
+ - AndrewNg's ML
 ---
 
 Logistic Regression

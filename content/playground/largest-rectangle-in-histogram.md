@@ -2,8 +2,6 @@
 title: "Largest Rectangle in Histogram"
 date: 2020-02-16T19:11:20+08:00
 draft: false
-tags:
- - stack
 ---
 
 <!--more-->

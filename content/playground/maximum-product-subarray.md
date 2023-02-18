@@ -2,8 +2,6 @@
 title: "Maximum Product Subarray"
 date: 2020-02-22T16:16:07+08:00
 draft: false
-tags:
- - dynamic programming
 ---
 <!--more-->
 

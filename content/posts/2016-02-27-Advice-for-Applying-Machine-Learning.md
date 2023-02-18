@@ -1,12 +1,8 @@
 ---
-title: Machine Learning Notes(12)-Advice for Applying Machine Learning
+title: 吴恩达 ML 公开课笔记(12)-Advice for Applying Machine Learning
 date: 2016-02-27 22:10:17
 tags: 
- - machine learning
- - coursera
-
-
-
+ - AndrewNg's ML
 ---
 
 Advice for Applying Machine Learning

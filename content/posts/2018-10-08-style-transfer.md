@@ -2,7 +2,7 @@
 title: 风格迁移(Style Transfer)
 date: 2018-10-08 18:37:39
 tags:
- - style transfer
+ - CV
 ---
 
 如何将艺术风格量化? 基于深度学习的风格迁移是个很有趣也很浪漫的领域

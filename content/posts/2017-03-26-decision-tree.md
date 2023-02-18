@@ -1,12 +1,6 @@
 ---
 title: 决策树
 date: 2017-03-27 00:29:14
-tags:
- - decision tree
- - machine learning
-
-
-
 ---
 
 决策树的小结

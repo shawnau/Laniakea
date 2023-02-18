@@ -3,8 +3,6 @@ title: 在mac os 10.12 Sierra下安装caffe
 date: 2016-11-12 16:34:06
 tags:
  - caffe
- - deep learning
-
 ---
 
 RT

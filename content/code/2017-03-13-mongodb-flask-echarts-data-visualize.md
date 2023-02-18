@@ -2,11 +2,9 @@
 title: scrapy + mongodb + flask + echarts 数据可视化
 date: 2017-03-13 21:33:07
 tags:
- - mongodb
+ - MongoDB
  - flask
- - echarts
  - python
-
 ---
 
 [源码](https://github.com/shawnau/intern_visualization)

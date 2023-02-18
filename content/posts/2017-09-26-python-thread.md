@@ -2,8 +2,7 @@
 title: Python核心编程笔记4 多线程
 date: 2017-09-26 21:54:13
 tags:
- - python
-
+ - python核心编程
 ---
 
 即使有GIL的存在使得python的多线程显得鸡肋, 但在重I/O应用中还是很实用, 并且multiprecessing是基于threading的, 有必要理解

@@ -2,11 +2,7 @@
 title: 朴素贝叶斯
 date: 2017-03-22 16:06:07
 tags: 
- - bayes
- - machine learning
-
-
-
+ - stat
 ---
 
 朴素贝叶斯(**Naive** Bayes) 如此蛤意盎然的算法, 居然一直没写

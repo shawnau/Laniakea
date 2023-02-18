@@ -2,8 +2,6 @@
 title: "Palindrome Partitioning 2"
 date: 2020-02-20T20:29:24+08:00
 draft: false
-tags:
- - dynamic programming
 ---
 
 <!--more-->

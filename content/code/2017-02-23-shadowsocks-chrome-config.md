@@ -3,7 +3,6 @@ title: shadowsocks+chrome代理配置速查手册
 date: 2017-02-23 00:56:07
 tags:
  - shadowsocks
-
 ---
 
 最近老是要配置ss, 顺手记下来以便存档. 为了方便0基础人士阅读极其傻瓜

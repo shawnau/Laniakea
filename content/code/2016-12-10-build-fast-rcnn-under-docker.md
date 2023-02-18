@@ -3,8 +3,7 @@ title: 基于Docker的Faster R-CNN, CPU-Only环境配置
 date: 2016-12-10 19:24:42
 tags:
  - docker
- - deep learning
-
+ - CV
 ---
 
 详见[我的repo](https://github.com/shawnau/py-faster-rcnn-cpu)

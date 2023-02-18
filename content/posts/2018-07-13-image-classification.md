@@ -2,10 +2,7 @@
 title: 图像识别综述-从Inception到ResNet
 date: 2018-07-13 18:04:05
 tags:
- - ResNet
- - Inception
- - SE-Net
-
+ - CV
 ---
 
 存货, 介绍了从Inception系列到Resnet系列的发展历史以及基本理念和pytorch实现

@@ -1,11 +1,8 @@
 ---
-title: Machine Learning Notes(11)-Programming Exercise 4
+title: 吴恩达 ML 公开课笔记(11)-Programming Exercise 4
 date: 2016-02-20 14:37:56
 tags: 
- - coursera
-
-
-
+ - AndrewNg's ML
 ---
 
 Programming Exercise 4

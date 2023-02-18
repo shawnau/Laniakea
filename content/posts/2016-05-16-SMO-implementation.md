@@ -2,12 +2,7 @@
 title: Support Vector Machine(4)-SMO implementation
 date: 2016-05-16 07:41:08
 tags:
- - machine learning
- - svm
  - machine-learning-in-action
-
-
-
 ---
 
 SMO算法的python实现

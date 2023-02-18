@@ -2,9 +2,6 @@
 title: "Distinct Subsequences"
 date: 2020-02-18T16:46:50+08:00
 draft: false
-tags:
-- dynamic programming
-- backtracking
 ---
 
 <!--more-->

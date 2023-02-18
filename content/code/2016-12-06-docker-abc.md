@@ -3,7 +3,6 @@ title: Docker速查
 date: 2016-12-08 19:29:07
 tags: 
  - docker
-
 ---
 
 docker是一款很牛逼的虚拟化工具

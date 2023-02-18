@@ -1,13 +1,8 @@
 ---
-title: Machine Learning Notes(10)-Neural Networks Learning
+title: 吴恩达 ML 公开课笔记(10)-Neural Networks Learning
 date: 2016-02-20 13:55:02
 tags: 
- - machine learning
- - neural network
- - coursera
-
-
-
+ - AndrewNg's ML
 ---
 
 Neural Networks Learning

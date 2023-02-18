@@ -2,8 +2,7 @@
 title: Python核心编程笔记3 面向对象编程
 date: 2017-09-25 16:54:18
 tags:
- - python
-
+ - python核心编程
 ---
 
 python有很好的OOP特性, 自由度也非常大

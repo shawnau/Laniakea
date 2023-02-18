@@ -2,9 +2,6 @@
 title: "Wildcard Matching"
 date: 2020-02-11T16:12:15+08:00
 draft: false
-tags:
- - dynamic programming
- - backtracking
 ---
 <!--more-->
 

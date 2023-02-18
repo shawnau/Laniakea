@@ -2,9 +2,6 @@
 title: "Longest Palindromic Subsequence"
 date: 2020-02-22T16:43:01+08:00
 draft: false
-tags:
- - dynamic programming
- - backtracking
 ---
 
 <!--more-->

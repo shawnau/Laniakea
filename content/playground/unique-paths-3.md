@@ -2,9 +2,6 @@
 title: "Unique Paths 3"
 date: 2020-02-15T20:50:53+08:00
 draft: false
-tags:
- - backtracking
- - dfs
 ---
 Walk over all grids without duplicate, with obstacles
 

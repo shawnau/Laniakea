@@ -3,7 +3,6 @@ title: Landslide - Markdown to Slide
 date: 2016-11-25 11:24:20
 tags: 
  - markdown
-
 ---
 [Landslide](https://github.com/adamzap/landslide) 是个可以把markdown文件变成幻灯片直接在浏览器里播放的工具. 
 

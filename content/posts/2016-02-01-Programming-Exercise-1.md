@@ -1,8 +1,8 @@
 ---
-title: Machine Learning Notes(5)-Programming Exercise 1
+title: 吴恩达 ML 公开课笔记(5)-Programming Exercise 1
 date: 2016-02-01 16:13:57
 tags: 
- - coursera
+ - AndrewNg's ML
 ---
 
 Programming Exercise 1: Gradient Descent for Linear regression

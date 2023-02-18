@@ -3,6 +3,8 @@ title: "设计模式 - 观察者模式(Observer Pattern)"
 date: 2022-08-30T16:56:33+08:00
 draft: false
 description: 观察者模式简介, 以及c#的event-handler模式带来的便利
+tags:
+ - Design Pattern
 ---
 
 观察者模式是常见的设计模式之一.

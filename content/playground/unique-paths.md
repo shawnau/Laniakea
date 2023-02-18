@@ -2,8 +2,6 @@
 title: "Unique Paths"
 date: 2020-02-15T19:33:05+08:00
 draft: false
-tags:
- - dynamic programming
 ---
 Count all paths from a to b
 <!--more-->

@@ -2,8 +2,7 @@
 title: 目标检测综述-从RCNN到Mask-RCNN
 date: 2018-07-13 18:06:56
 tags:
- - RCNN
- - FPN
+ - CV
 ---
 
 存货, 介绍了RCNN系列的发展历史以及基本理念

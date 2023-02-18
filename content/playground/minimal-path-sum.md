@@ -2,8 +2,6 @@
 title: "Minimal Path Sum"
 date: 2020-02-16T00:20:57+08:00
 draft: false
-tags:
- - dynamic programming
 ---
 
 <!--more-->

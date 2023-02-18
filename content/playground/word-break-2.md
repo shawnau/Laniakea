@@ -2,10 +2,6 @@
 title: "Word Break 2"
 date: 2020-02-21T22:13:35+08:00
 draft: false
-tags:
- - dynamic programming
- - backtracking
- - dfs
 ---
 <!--more-->
 

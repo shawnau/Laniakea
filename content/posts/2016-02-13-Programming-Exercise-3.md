@@ -1,8 +1,8 @@
 ---
-title: Machine Learning Notes(9)-Programming Exercise 3
+title: 吴恩达 ML 公开课笔记(9)-Programming Exercise 3
 date: 2016-02-09 19:59:32
 tags: 
- - coursera
+ - AndrewNg's ML
 ---
 
 Programming Exercise 3

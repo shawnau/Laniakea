@@ -2,9 +2,7 @@
 title: Boosting(2) - Adaboost and Forward Stagewise
 date: 2016-06-22 06:30:37
 tags:
- - machine learning
  - 统计学习方法
- - boosting
 ---
 
 Boosting理论基础: 和前向分步算法的等价性

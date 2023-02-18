@@ -1,8 +1,8 @@
 ---
-title: Machine Learning Notes(7)-Programming Exercise 2
+title: 吴恩达 ML 公开课笔记(7)-Programming Exercise 2
 date: 2016-02-09 19:59:32
 tags: 
- - coursera
+ - AndrewNg's ML
 ---
 
 Programming Exercise 2

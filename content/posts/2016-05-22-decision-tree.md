@@ -2,8 +2,6 @@
 title: 决策树 (Decision Tree)
 date: 2016-05-22 07:41:08
 tags:
- - machine learning
- - decision tree
  - 统计学习方法
 ---
 

@@ -1,9 +1,6 @@
 ---
 title: Binary Tree Traverse
 date: 2017-12-30 23:43:34
-tags:
- - Algorithm
-
 ---
 
 茴字有四种写法, 二叉树有三种遍历手段(递归, 栈, morris遍历)

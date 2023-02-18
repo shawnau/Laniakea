@@ -2,9 +2,6 @@
 title: "Palindrome Partitioning"
 date: 2020-02-20T16:06:21+08:00
 draft: false
-tags:
- - backtracking
- - dfs
 ---
 
 <!--more-->

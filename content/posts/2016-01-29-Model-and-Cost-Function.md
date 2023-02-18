@@ -1,12 +1,11 @@
 ---
-title: ML 笔记 2 - A Linear Regression Example
+title: 吴恩达 ML 公开课笔记(2) - A Linear Regression Example
 date: 2016-01-29 22:38:43
 tags: 
- - machine learning
- - coursera
+ - AndrewNg's ML
 ---
 
-This is my notes for the open course [Machine Learning](https://www.coursera.org/learn/machine-learning/) from coursera.
+This is my notes for the open course [Machine Learning](https://www.AndrewNg's ML.org/learn/machine-learning/) from AndrewNg's ML.
 
 <!--more-->
 

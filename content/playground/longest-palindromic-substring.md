@@ -2,8 +2,6 @@
 title: "Longest Palindromic Substring"
 date: 2020-02-11T17:18:35+08:00
 draft: false
-tags:
- - dynamic programming
 ---
 
 <!--more-->

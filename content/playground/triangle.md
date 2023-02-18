@@ -2,8 +2,6 @@
 title: "Triangle"
 date: 2020-02-18T23:39:31+08:00
 draft: false
-tags:
- - dynamic programming
 ---
 <!--more-->
 

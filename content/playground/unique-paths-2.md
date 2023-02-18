@@ -2,8 +2,6 @@
 title: "Unique Paths 2"
 date: 2020-02-15T20:13:37+08:00
 draft: false
-tags:
- - dynamic programming
 ---
 Count all paths from a to b, with obstacles.
 <!--more-->

@@ -1,9 +1,8 @@
 ---
-title: Machine Learning Notes(4)-Octave abc
+title: 吴恩达 ML 公开课笔记(4)-Octave abc
 date: 2016-02-01 13:44:34
 tags: 
- - coursera
-
+ - AndrewNg's ML
 ---
 Too lazy to explain some of the commands...orz
 

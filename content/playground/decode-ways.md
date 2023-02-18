@@ -2,8 +2,6 @@
 title: "Decode Ways"
 date: 2020-02-17T15:54:48+08:00
 draft: false
-tags:
-- dynamic programming
 ---
 
 <!--more-->

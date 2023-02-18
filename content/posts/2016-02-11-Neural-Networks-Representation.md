@@ -1,10 +1,8 @@
 ---
-title: Machine Learning Notes(8)-Neural Networks Representation
+title: 吴恩达 ML 公开课笔记(8)-Neural Networks Representation
 date: 2016-02-11 16:38:03
 tags: 
- - machine learning
- - neural network
- - coursera
+ - AndrewNg's ML
 ---
 
 <!--more-->

@@ -1,12 +1,6 @@
 ---
 title: Logistic Regression, Softmax与最大熵
 date: 2017-03-27 16:27:20
-
-tags:
- - logistic regression
- - machine learning
-
-
 ---
 
 Logistic Regression的小结
